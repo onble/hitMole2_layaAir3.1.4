@@ -1,0 +1,115 @@
+const { regClass, property } = Laya;
+/**
+ * 地鼠逻辑类
+ * 状态：显示，停留，消失，受击
+ */
+@regClass()
+export class Mole extends Laya.Script {
+    declare owner: Laya.Sprite;
+
+    // 正常时候地鼠的图片对象
+    private normalState: Laya.Image;
+    // 被打击时候地鼠的图片对象
+    private hitState: Laya.Image;
+    // 地鼠下蹲的Y值
+    private downY: number;
+    // 地鼠探头时候的Y值
+    private upY: number;
+
+    private isActive: boolean;
+    private isShow: boolean;
+    private isHit: boolean;
+    constructor(normalState: Laya.Image, hitState: Laya.Image, downY: number) {
+        super();
+        this.normalState = normalState;
+        this.hitState = hitState;
+        this.downY = downY;
+        console.log(this.normalState);
+        this.upY = this.normalState.y;
+
+        this.reset();
+        // 给正常地鼠状态的图片添加点击事件
+        this.normalState.on(Laya.Event.MOUSE_DOWN, this, this.hit);
+    }
+
+    @property(String)
+    public text: string = "";
+
+    //组件被激活后执行，此时所有节点和组件均已创建完毕，此方法只执行一次
+    //onAwake(): void {}
+
+    //组件被启用后执行，例如节点被添加到舞台后
+    //onEnable(): void {}
+
+    //组件被禁用时执行，例如从节点从舞台移除后
+    //onDisable(): void {}
+
+    //第一次执行update之前执行，只会执行一次
+    //onStart(): void {}
+
+    //手动调用节点销毁时执行
+    //onDestroy(): void {}
+
+    //每帧更新时执行，尽量不要在这里写大循环逻辑或者使用getComponent方法
+    //onUpdate(): void {}
+
+    //每帧更新时执行，在update之后执行，尽量不要在这里写大循环逻辑或者使用getComponent方法
+    //onLateUpdate(): void {}
+
+    //鼠标点击后执行。与交互相关的还有onMouseDown等十多个函数，具体请参阅文档。
+    //onMouseClick(): void {}
+
+    // 重置
+    reset(): void {
+        this.normalState.visible = false;
+        this.hitState.visible = false;
+        this.isActive = false;
+        this.isShow = false;
+        this.isHit = false;
+    }
+    // 显示
+    show(): void {
+        if (this.isActive) return;
+        this.isActive = true;
+        this.isShow = true;
+        this.normalState.y = this.downY;
+        this.normalState.visible = true;
+        Laya.Tween.to(
+            this.normalState,
+            { y: this.upY },
+            500,
+            Laya.Ease.backOut,
+            Laya.Handler.create(this, this.showComplete)
+        );
+    }
+    // 停留
+    showComplete(): void {
+        if (this.isShow && !this.isHit) {
+            Laya.timer.once(2000, this, this.hide);
+        }
+    }
+    // 消失
+    hide(): void {
+        if (this.isShow && !this.isHit) {
+            this.isShow = false;
+            Laya.Tween.to(
+                this.normalState,
+                { y: this.downY },
+                300,
+                Laya.Ease.backIn,
+                Laya.Handler.create(this, this.reset)
+            );
+        }
+    }
+    // 受击
+    hit(): void {
+        if (this.isShow && !this.isHit) {
+            this.isHit = true;
+            this.isShow = false;
+            Laya.timer.clear(this, this.hide);
+            this.normalState.visible = false;
+            this.hitState.visible = true;
+            Laya.timer.once(500, this, this.reset);
+        }
+    }
+}
