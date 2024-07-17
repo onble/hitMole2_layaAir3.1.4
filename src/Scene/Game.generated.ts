@@ -5,7 +5,5 @@
  * Game.ls
  */
 export class GameBase extends Laya.Scene {
-    public normal!: Laya.Image;
-    public hit!: Laya.Image;
 }
 

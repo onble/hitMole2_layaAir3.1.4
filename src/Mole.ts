@@ -16,9 +16,15 @@ export class Mole extends Laya.Script {
     // 地鼠探头时候的Y值
     private upY: number;
 
+    // 当前地鼠是否已被激活
     private isActive: boolean;
+    // 地鼠是否处于显示状态
     private isShow: boolean;
+    // 地鼠是否处于受击状态
     private isHit: boolean;
+    // 地鼠类型 1:蓝色地鼠 2:黄色海盗地鼠
+    private type: number;
+
     constructor(normalState: Laya.Image, hitState: Laya.Image, downY: number) {
         super();
         this.normalState = normalState;
@@ -72,6 +78,11 @@ export class Mole extends Laya.Script {
         if (this.isActive) return;
         this.isActive = true;
         this.isShow = true;
+        // 下面使用随机数逻辑确定地鼠的种类
+        this.type = Math.random() < 0.3 ? 1 : 2;
+        this.normalState.skin =
+            "resources/ui/mouse_normal_" + this.type + ".png";
+        this.hitState.skin = "resources/ui/mouse_hit_" + this.type + ".png";
         this.normalState.y = this.downY;
         this.normalState.visible = true;
         Laya.Tween.to(
