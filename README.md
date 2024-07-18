@@ -6,6 +6,8 @@
 
 游戏素材参考：https://github.com/GreatBareBear/GitHub_LayaAir
 
+gitHub项目地址：https://github.com/onble/hitMole_layaAir3.1.4.git
+
 ## 实现该项目原因
 
 本项目实现于2024年7月18日，因为在接触layaAir3版本的蓝亚引擎，网络上3版本的可直接运行的公开项目较少，因此在接触一段时间蓝亚引擎后，将参考资料基于1版本引擎的项目在3版本进行尝试实现了一下。
