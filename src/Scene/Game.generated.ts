@@ -5,5 +5,8 @@
  * Game.ls
  */
 export class GameBase extends Laya.Scene {
+    public scoreNums!: Laya.Box;
+    public timerBar!: Laya.ProgressBar;
+    public hammer!: Laya.Image;
 }
 

@@ -1,0 +1,45 @@
+{
+  "_$ver": 1,
+  "_$id": "dbh1frhj",
+  "_$type": "Image",
+  "name": "hammer",
+  "x": 394,
+  "y": 165,
+  "width": 98,
+  "height": 77,
+  "skin": "res://2d9839c8-018b-4589-a9ff-ccdbabb71e61",
+  "useSourceSize": true,
+  "color": "#ffffff",
+  "_$comp": [
+    {
+      "_$type": "84f0731b-4c53-4028-9f18-57c88ca1f4a4",
+      "scriptPath": "../src/Hammer.ts"
+    },
+    {
+      "_$type": "Animator2D",
+      "controller": {
+        "_$uuid": "2566e516-4909-44e0-91a1-2b93b3c08cfc",
+        "_$type": "AnimationController2D"
+      },
+      "controllerLayers": [
+        {
+          "_$type": "AnimatorControllerLayer2D",
+          "name": "Base Layer",
+          "states": [
+            {
+              "_$type": "AnimatorState2D",
+              "name": "hit",
+              "clipStart": 0,
+              "clip": {
+                "_$uuid": "fed18266-5d95-4f90-8a64-99843cd041d6",
+                "_$type": "AnimationClip2D"
+              },
+              "soloTransitions": []
+            }
+          ],
+          "defaultStateName": "hit"
+        }
+      ]
+    }
+  ]
+}

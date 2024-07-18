@@ -63,6 +63,20 @@
           "skin": "res://7847541f-ab96-499d-85d7-ff6827925632",
           "useSourceSize": true,
           "color": "#ffffff"
+        },
+        {
+          "_$id": "3m74r5j6",
+          "_$type": "Image",
+          "name": "scoreImg",
+          "x": 62.98999875690663,
+          "y": 17.59867081241535,
+          "width": 86,
+          "height": 30,
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "skin": "res://33c1684c-47eb-49ba-8ee9-0ceeb58e3828",
+          "useSourceSize": true,
+          "color": "#ffffff"
         }
       ]
     },
@@ -106,6 +120,20 @@
           "width": 138,
           "height": 45,
           "skin": "res://6af599a8-5b8d-4119-b437-6b7f13c1dc1c",
+          "useSourceSize": true,
+          "color": "#ffffff"
+        },
+        {
+          "_$id": "yxlfd9me",
+          "_$type": "Image",
+          "name": "scoreImg",
+          "x": 63,
+          "y": 18,
+          "width": 86,
+          "height": 30,
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "skin": "res://33c1684c-47eb-49ba-8ee9-0ceeb58e3828",
           "useSourceSize": true,
           "color": "#ffffff"
         }
@@ -153,6 +181,20 @@
           "skin": "res://1bd1bda5-63c9-44bc-a3bc-0f31f557a863",
           "useSourceSize": true,
           "color": "#ffffff"
+        },
+        {
+          "_$id": "rkmc06af",
+          "_$type": "Image",
+          "name": "scoreImg",
+          "x": 63,
+          "y": 18,
+          "width": 86,
+          "height": 30,
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "skin": "res://33c1684c-47eb-49ba-8ee9-0ceeb58e3828",
+          "useSourceSize": true,
+          "color": "#ffffff"
         }
       ]
     },
@@ -196,6 +238,20 @@
           "width": 138,
           "height": 45,
           "skin": "res://81c6e91b-ed5a-4d19-af5c-7e97b1b7a59a",
+          "useSourceSize": true,
+          "color": "#ffffff"
+        },
+        {
+          "_$id": "o8u7cah0",
+          "_$type": "Image",
+          "name": "scoreImg",
+          "x": 63,
+          "y": 18,
+          "width": 86,
+          "height": 30,
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "skin": "res://33c1684c-47eb-49ba-8ee9-0ceeb58e3828",
           "useSourceSize": true,
           "color": "#ffffff"
         }
@@ -243,6 +299,20 @@
           "skin": "res://83a99e74-7405-4d8d-81cb-fc6a3be66169",
           "useSourceSize": true,
           "color": "#ffffff"
+        },
+        {
+          "_$id": "zdd9xjo2",
+          "_$type": "Image",
+          "name": "scoreImg",
+          "x": 63,
+          "y": 18,
+          "width": 86,
+          "height": 30,
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "skin": "res://33c1684c-47eb-49ba-8ee9-0ceeb58e3828",
+          "useSourceSize": true,
+          "color": "#ffffff"
         }
       ]
     },
@@ -286,6 +356,20 @@
           "width": 138,
           "height": 45,
           "skin": "res://2db95b99-f0d4-4530-8b94-bfc53d404c12",
+          "useSourceSize": true,
+          "color": "#ffffff"
+        },
+        {
+          "_$id": "zbozyp2w",
+          "_$type": "Image",
+          "name": "scoreImg",
+          "x": 63,
+          "y": 18,
+          "width": 86,
+          "height": 30,
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "skin": "res://33c1684c-47eb-49ba-8ee9-0ceeb58e3828",
           "useSourceSize": true,
           "color": "#ffffff"
         }
@@ -333,6 +417,20 @@
           "skin": "res://d7fc59c8-4e97-4b19-8eee-5d120465bf23",
           "useSourceSize": true,
           "color": "#ffffff"
+        },
+        {
+          "_$id": "3igzj32v",
+          "_$type": "Image",
+          "name": "scoreImg",
+          "x": 63,
+          "y": 18,
+          "width": 86,
+          "height": 30,
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "skin": "res://33c1684c-47eb-49ba-8ee9-0ceeb58e3828",
+          "useSourceSize": true,
+          "color": "#ffffff"
         }
       ]
     },
@@ -376,6 +474,20 @@
           "width": 138,
           "height": 45,
           "skin": "res://8c932b2a-a493-45f9-a88c-2f6cdfbb9486",
+          "useSourceSize": true,
+          "color": "#ffffff"
+        },
+        {
+          "_$id": "23nrge2r",
+          "_$type": "Image",
+          "name": "scoreImg",
+          "x": 63,
+          "y": 18,
+          "width": 86,
+          "height": 30,
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "skin": "res://33c1684c-47eb-49ba-8ee9-0ceeb58e3828",
           "useSourceSize": true,
           "color": "#ffffff"
         }
@@ -423,6 +535,243 @@
           "skin": "res://55844ea2-ab22-4ea3-abaa-e6ad9a1e5e5b",
           "useSourceSize": true,
           "color": "#ffffff"
+        },
+        {
+          "_$id": "8225fj9p",
+          "_$type": "Image",
+          "name": "scoreImg",
+          "x": 63,
+          "y": 18,
+          "width": 86,
+          "height": 30,
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "skin": "res://33c1684c-47eb-49ba-8ee9-0ceeb58e3828",
+          "useSourceSize": true,
+          "color": "#ffffff"
+        }
+      ]
+    },
+    {
+      "_$id": "hk3p5caw",
+      "_$var": true,
+      "_$type": "Box",
+      "name": "scoreNums",
+      "x": 29.72128567598891,
+      "y": 52.185394478647694,
+      "width": 149,
+      "height": 33,
+      "_$child": [
+        {
+          "_$id": "k02ix9yw",
+          "_$type": "Clip",
+          "name": "item0",
+          "width": 13.272422464375529,
+          "height": 32.670578373847476,
+          "clipWidth": 0,
+          "clipHeight": 0,
+          "clipX": 10,
+          "clipY": 1,
+          "index": 0,
+          "interval": 2000,
+          "skin": "res://7c9e97fd-8e3d-43bd-86d1-dad2093464ca"
+        },
+        {
+          "_$id": "wwrd6ejt",
+          "_$type": "Clip",
+          "name": "item1",
+          "x": 15.278714324011077,
+          "width": 13.272422464375529,
+          "height": 32.670578373847476,
+          "clipWidth": 0,
+          "clipHeight": 0,
+          "clipX": 10,
+          "clipY": 1,
+          "index": 0,
+          "interval": 2000,
+          "skin": "res://7c9e97fd-8e3d-43bd-86d1-dad2093464ca"
+        },
+        {
+          "_$id": "fx9uu6sp",
+          "_$type": "Clip",
+          "name": "item2",
+          "x": 30.27871432401109,
+          "width": 13.272422464375529,
+          "height": 32.670578373847476,
+          "clipWidth": 0,
+          "clipHeight": 0,
+          "clipX": 10,
+          "clipY": 1,
+          "index": 0,
+          "interval": 2000,
+          "skin": "res://7c9e97fd-8e3d-43bd-86d1-dad2093464ca"
+        },
+        {
+          "_$id": "vsfpbp5s",
+          "_$type": "Clip",
+          "name": "item3",
+          "x": 45.278714324011105,
+          "width": 13.272422464375529,
+          "height": 32.670578373847476,
+          "clipWidth": 0,
+          "clipHeight": 0,
+          "clipX": 10,
+          "clipY": 1,
+          "index": 0,
+          "interval": 2000,
+          "skin": "res://7c9e97fd-8e3d-43bd-86d1-dad2093464ca"
+        },
+        {
+          "_$id": "3yyffew0",
+          "_$type": "Clip",
+          "name": "item4",
+          "x": 60.27871432401106,
+          "width": 13.272422464375529,
+          "height": 32.670578373847476,
+          "clipWidth": 0,
+          "clipHeight": 0,
+          "clipX": 10,
+          "clipY": 1,
+          "index": 0,
+          "interval": 2000,
+          "skin": "res://7c9e97fd-8e3d-43bd-86d1-dad2093464ca"
+        },
+        {
+          "_$id": "zauv5gmv",
+          "_$type": "Clip",
+          "name": "item5",
+          "x": 75.27871432401103,
+          "width": 13.272422464375529,
+          "height": 32.670578373847476,
+          "clipWidth": 0,
+          "clipHeight": 0,
+          "clipX": 10,
+          "clipY": 1,
+          "index": 0,
+          "interval": 2000,
+          "skin": "res://7c9e97fd-8e3d-43bd-86d1-dad2093464ca"
+        },
+        {
+          "_$id": "1rzulk81",
+          "_$type": "Clip",
+          "name": "item6",
+          "x": 90.27871432401109,
+          "width": 13.272422464375529,
+          "height": 32.670578373847476,
+          "clipWidth": 0,
+          "clipHeight": 0,
+          "clipX": 10,
+          "clipY": 1,
+          "index": 0,
+          "interval": 2000,
+          "skin": "res://7c9e97fd-8e3d-43bd-86d1-dad2093464ca"
+        },
+        {
+          "_$id": "de4syl55",
+          "_$type": "Clip",
+          "name": "item7",
+          "x": 105.27871432401106,
+          "width": 13.272422464375529,
+          "height": 32.670578373847476,
+          "clipWidth": 0,
+          "clipHeight": 0,
+          "clipX": 10,
+          "clipY": 1,
+          "index": 0,
+          "interval": 2000,
+          "skin": "res://7c9e97fd-8e3d-43bd-86d1-dad2093464ca"
+        },
+        {
+          "_$id": "a08wnwke",
+          "_$type": "Clip",
+          "name": "item8",
+          "x": 120.27871432401112,
+          "width": 13.272422464375529,
+          "height": 32.670578373847476,
+          "clipWidth": 0,
+          "clipHeight": 0,
+          "clipX": 10,
+          "clipY": 1,
+          "index": 0,
+          "interval": 2000,
+          "skin": "res://7c9e97fd-8e3d-43bd-86d1-dad2093464ca"
+        },
+        {
+          "_$id": "zupanmh2",
+          "_$type": "Clip",
+          "name": "item9",
+          "x": 135.27871432401105,
+          "width": 13.272422464375529,
+          "height": 32.670578373847476,
+          "clipWidth": 0,
+          "clipHeight": 0,
+          "clipX": 10,
+          "clipY": 1,
+          "index": 0,
+          "interval": 2000,
+          "skin": "res://7c9e97fd-8e3d-43bd-86d1-dad2093464ca"
+        }
+      ]
+    },
+    {
+      "_$id": "rnjbzeom",
+      "_$var": true,
+      "_$type": "ProgressBar",
+      "name": "timerBar",
+      "x": 8.138045735763528,
+      "y": 13.689305198563806,
+      "width": 313,
+      "height": 18,
+      "skin": "res://de9596d8-5eb8-4e96-b87b-359fd69af74c",
+      "value": 1
+    },
+    {
+      "_$id": "dbh1frhj",
+      "_$var": true,
+      "_$type": "Image",
+      "name": "hammer",
+      "x": 424,
+      "y": 231,
+      "width": 98,
+      "height": 77,
+      "anchorX": 0.5180010997436312,
+      "anchorY": 0.6721962204463741,
+      "rotation": 20,
+      "_mouseState": 1,
+      "mouseThrough": true,
+      "skin": "res://2d9839c8-018b-4589-a9ff-ccdbabb71e61",
+      "useSourceSize": true,
+      "color": "#ffffff",
+      "_$comp": [
+        {
+          "_$type": "84f0731b-4c53-4028-9f18-57c88ca1f4a4",
+          "scriptPath": "../src/Hammer.ts"
+        },
+        {
+          "_$type": "Animator2D",
+          "controller": {
+            "_$uuid": "2566e516-4909-44e0-91a1-2b93b3c08cfc",
+            "_$type": "AnimationController2D"
+          },
+          "controllerLayers": [
+            {
+              "_$type": "AnimatorControllerLayer2D",
+              "name": "Base Layer",
+              "states": [
+                {
+                  "_$type": "AnimatorState2D",
+                  "name": "hit",
+                  "clipStart": 0,
+                  "clip": {
+                    "_$uuid": "fed18266-5d95-4f90-8a64-99843cd041d6",
+                    "_$type": "AnimationClip2D"
+                  },
+                  "soloTransitions": []
+                }
+              ],
+              "defaultStateName": "hit"
+            }
+          ]
         }
       ]
     }

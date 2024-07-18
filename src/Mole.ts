@@ -15,6 +15,12 @@ export class Mole extends Laya.Script {
     private downY: number;
     // 地鼠探头时候的Y值
     private upY: number;
+    // 分数图片
+    private scoreImg: Laya.Image;
+    // 分数图片的最高点y值
+    private scoreY: number;
+    // 受击回调函数处理器
+    private hitCallBackHd: Laya.Handler;
 
     // 当前地鼠是否已被激活
     private isActive: boolean;
@@ -25,13 +31,21 @@ export class Mole extends Laya.Script {
     // 地鼠类型 1:蓝色地鼠 2:黄色海盗地鼠
     private type: number;
 
-    constructor(normalState: Laya.Image, hitState: Laya.Image, downY: number) {
+    constructor(
+        normalState: Laya.Image,
+        hitState: Laya.Image,
+        scoreImg: Laya.Image,
+        downY: number,
+        hitCallBackHd: Laya.Handler
+    ) {
         super();
         this.normalState = normalState;
         this.hitState = hitState;
         this.downY = downY;
-        console.log(this.normalState);
         this.upY = this.normalState.y;
+        this.hitCallBackHd = hitCallBackHd;
+        this.scoreImg = scoreImg;
+        this.scoreY = this.scoreImg.y;
 
         this.reset();
         // 给正常地鼠状态的图片添加点击事件
@@ -69,6 +83,7 @@ export class Mole extends Laya.Script {
     reset(): void {
         this.normalState.visible = false;
         this.hitState.visible = false;
+        this.scoreImg.visible = false;
         this.isActive = false;
         this.isShow = false;
         this.isHit = false;
@@ -83,6 +98,7 @@ export class Mole extends Laya.Script {
         this.normalState.skin =
             "resources/ui/mouse_normal_" + this.type + ".png";
         this.hitState.skin = "resources/ui/mouse_hit_" + this.type + ".png";
+        this.scoreImg.skin = "resources/ui/score_" + this.type + ".png";
         this.normalState.y = this.downY;
         this.normalState.visible = true;
         Laya.Tween.to(
@@ -120,7 +136,21 @@ export class Mole extends Laya.Script {
             Laya.timer.clear(this, this.hide);
             this.normalState.visible = false;
             this.hitState.visible = true;
+            this.hitCallBackHd.runWith(this.type);
             Laya.timer.once(500, this, this.reset);
+            this.showScore();
         }
+    }
+    // 显示得分飘字
+    showScore(): void {
+        this.scoreImg.y = this.scoreY + 30;
+        this.scoreImg.scale(0, 0);
+        this.scoreImg.visible = true;
+        Laya.Tween.to(
+            this.scoreImg,
+            { y: this.scoreY, scaleX: 1, scaleY: 1 },
+            300,
+            Laya.Ease.backOut
+        );
     }
 }
