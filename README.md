@@ -1,10 +1,10 @@
 # hitMole
 
-这个项目是使用layaAir游戏引擎3.14版本完成的，游戏内容为打地鼠。
+这个项目是使用layaAir游戏引擎[3.1.4版本](https://layaair.layabox.com/#/engineDownload/LayaAir%203.1.4)完成的，游戏内容为打地鼠。
 
 游戏实现思路参考：https://www.bilibili.com/video/BV1MP4y1S7g8。
 
-游戏素材参考：https://github.com/GreatBareBear/GitHub_LayaAir
+游戏素材参考：https://github.com/GreatBareBear/GitHub_LayaAir。
 
 ## 实现该项目原因
 
