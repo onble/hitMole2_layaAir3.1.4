@@ -2,13 +2,15 @@
 
 这个项目是使用layaAir游戏引擎[3.1.4版本](https://layaair.layabox.com/#/engineDownload/LayaAir%203.1.4)完成的，游戏内容为打地鼠。
 
-游戏实现思路参考：https://www.bilibili.com/video/BV1MP4y1S7g8。
+游戏实现思路参考：https://www.bilibili.com/video/BV1MP4y1S7g8
 
-游戏素材参考：https://github.com/GreatBareBear/GitHub_LayaAir。
+游戏素材参考：https://github.com/GreatBareBear/GitHub_LayaAir
 
 ## 实现该项目原因
 
 本项目实现于2024年7月18日，因为在接触layaAir3版本的蓝亚引擎，网络上3版本的可直接运行的公开项目较少，因此在接触一段时间蓝亚引擎后，将参考资料基于1版本引擎的项目在3版本进行尝试实现了一下。
+
+项目的git前4个版本分别对应课程的四节内容。
 
 ## 游戏效果截图
 
