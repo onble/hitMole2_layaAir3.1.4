@@ -8,5 +8,8 @@ export class GameBase extends Laya.Scene {
     public scoreNums!: Laya.Box;
     public timerBar!: Laya.ProgressBar;
     public hammer!: Laya.Image;
+    public GameOver!: Laya.Box;
+    public scoreNumsSettlement!: Laya.Box;
+    public restartBtn!: Laya.Button;
 }
 
