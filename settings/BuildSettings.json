@@ -1,4 +1,8 @@
 {
   "name": "hitMole",
-  "startupScene": "res://93518bc7-594f-4768-8d44-bd4bf762abdd"
+  "minifyJS": true,
+  "startupScene": "res://93518bc7-594f-4768-8d44-bd4bf762abdd",
+  "includedScenes": [
+    "res://9b931ecf-fde9-44dd-acf3-15f8dc807965"
+  ]
 }

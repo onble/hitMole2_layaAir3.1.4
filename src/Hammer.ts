@@ -42,7 +42,6 @@ export class Hammer extends Laya.Script {
     }
 
     MouseDown(): void {
-        console.log("MouseDown");
         this.animatorController.play("hit", 0, 1);
         // this.animatorController.setParamsBool("hitting", true);
     }
