@@ -782,6 +782,15 @@
             }
           ]
         }
+      ],
+      "_$child": [
+        {
+          "_$id": "o3jhuswo",
+          "_$type": "Sprite",
+          "name": "Sprite",
+          "width": 100,
+          "height": 100
+        }
       ]
     },
     {

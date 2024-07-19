@@ -18,8 +18,10 @@
   },
   "modules": {
     "laya.d3": true,
-    "laya.ui": true
+    "laya.ui": true,
+    "laya.spine": false
   },
+  "spineVersion": "4.1",
   "splash": {
     "fit": "center"
   }
