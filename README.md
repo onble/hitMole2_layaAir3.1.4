@@ -1,32 +1,28 @@
 # hitMole
 
-这个项目是使用layaAir游戏引擎[3.1.4版本](https://layaair.layabox.com/#/engineDownload/LayaAir%203.1.4)完成的，游戏内容为打地鼠。
+这个项目是使用layaAir游戏引擎[3.1.4版本](https://layaair.layabox.com/#/engineDownload/LayaAir%203.1.4)完成的，游戏内容为打地鼠2。
 
-游戏实现思路参考：https://www.bilibili.com/video/BV1MP4y1S7g8
+游戏实现思路参考：layaAir官方的qq群124512917中群文件，里面有在layaAir2版本的打地鼠项目，我参考那边版本的项目，将里面的逻辑都用3版本的引擎复现了一遍。
 
-游戏素材参考：https://github.com/GreatBareBear/GitHub_LayaAir
-
-gitHub项目地址：https://github.com/onble/hitMole_layaAir3.1.4.git
+gitHub项目地址：https://github.com/onble/hitMole2_layaAir3.1.4
 
 ## 实现该项目原因
 
-本项目实现于2024年7月18日，因为在接触layaAir3版本的蓝亚引擎，网络上3版本的可直接运行的公开项目较少，因此在接触一段时间蓝亚引擎后，将参考资料基于1版本引擎的项目在3版本进行尝试实现了一下。
+在完成1的内容，后在没有课程的情况，自己尝试看着2的代码完成了本项目。
 
-项目的git前4个版本分别对应课程的四节内容。
+## 内容截图
 
-## 游戏效果截图
+[![1.jpg](https://i.postimg.cc/SQ8mRg3h/1.jpg)](https://postimg.cc/K4Z6sDmq)
 
-[![开始游戏界面.jpg](https://i.postimg.cc/PrJccjCd/1.jpg)](https://postimg.cc/hfFpzN8Y)
+[![2.jpg](https://i.postimg.cc/YC27XM9r/2.jpg)](https://postimg.cc/gn71j98Q)
 
-[![2.jpg](https://i.postimg.cc/tTgtTXQT/2.jpg)](https://postimg.cc/rdvtZ2pX)
+[![3.jpg](https://i.postimg.cc/85vgFCyH/3.jpg)](https://postimg.cc/CBwQXwpB)
 
-[![3.jpg](https://i.postimg.cc/wBqDf6BV/3.jpg)](https://postimg.cc/gx7wrb8X)
+[![4.jpg](https://i.postimg.cc/brjc1jWj/4.jpg)](https://postimg.cc/G8z516bM)
 
-## 还需解决的问题
-
-- 因为没有原始素材，时间进度条和分数字体的图片切割的大小不合适，因此在显示效果上有些问题。
-- 锤子的动画在x和y上的改变没有找到正确实现的方法，只有旋转属性正常工作。
+[![5.jpg](https://i.postimg.cc/02P1QP7Y/5.jpg)](https://postimg.cc/CdPQryP5)
 
 ## 声明
 
 本项目基于网络上的参考资料实现，仅供学习参考，如有侵权请联系1546909339@qq.com进行删除。
+
