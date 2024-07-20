@@ -2,14 +2,24 @@
 
 
 /**
- * Game.ls
+ * Scene/Game.ls
  */
 export class GameBase extends Laya.Scene {
     public scoreNums!: Laya.Box;
     public timerBar!: Laya.ProgressBar;
-    public hammer!: Laya.Image;
     public GameOver!: Laya.Box;
     public scoreNumsSettlement!: Laya.Box;
     public restartBtn!: Laya.Button;
+    public SoundButton!: Laya.Button;
+    public PauseButton!: Laya.Button;
+    public CloseButton!: Laya.Button;
+    public AimScore!: Laya.Box;
+    public checkpoint!: Laya.Box;
+    public Start!: Laya.Image;
+    //public GameOver!: Laya.Image;
+    public pass!: Laya.Image;
+    public backButton!: Laya.Button;
+    public countDown!: Laya.Clip;
+    public hammer!: Laya.Image;
 }
 

@@ -19,6 +19,6 @@ export class GameStart extends GameStartBase {
     }
     startGame() {
         // 跳转场景
-        Laya.Scene.open("Game.ls", true);
+        Laya.Scene.open("Scene/Game.ls", true);
     }
 }

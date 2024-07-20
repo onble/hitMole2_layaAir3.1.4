@@ -29,7 +29,7 @@ export class Mole extends Laya.Script {
     // 地鼠是否处于受击状态
     private isHit: boolean;
     // 地鼠类型 1:蓝色地鼠 2:黄色海盗地鼠
-    private type: number;
+    private moleType: number;
 
     constructor(
         normalState: Laya.Image,
@@ -67,17 +67,19 @@ export class Mole extends Laya.Script {
         this.isActive = true;
         this.isShow = true;
         // 下面使用随机数逻辑确定地鼠的种类
-        this.type = Math.random() < 0.3 ? 1 : 2;
+        this.moleType = Math.ceil(Math.random() * 5);
         this.normalState.skin =
-            "resources/ui/mouse_normal_" + this.type + ".png";
-        this.hitState.skin = "resources/ui/mouse_hit_" + this.type + ".png";
-        this.scoreImg.skin = "resources/ui/score_" + this.type + ".png";
+            "resources/ui/main/mouse_normal_" + this.moleType + ".png";
+        this.hitState.skin =
+            "resources/ui/main/mouse_hit_" + this.moleType + ".png";
+        this.scoreImg.skin =
+            "resources/ui/main/score_" + this.moleType + ".png";
         this.normalState.y = this.downY;
         this.normalState.visible = true;
         Laya.Tween.to(
             this.normalState,
             { y: this.upY },
-            500,
+            1000,
             Laya.Ease.backOut,
             Laya.Handler.create(this, this.showComplete)
         );
@@ -95,7 +97,7 @@ export class Mole extends Laya.Script {
             Laya.Tween.to(
                 this.normalState,
                 { y: this.downY },
-                300,
+                800,
                 Laya.Ease.backIn,
                 Laya.Handler.create(this, this.reset)
             );
@@ -109,7 +111,7 @@ export class Mole extends Laya.Script {
             Laya.timer.clear(this, this.hide);
             this.normalState.visible = false;
             this.hitState.visible = true;
-            this.hitCallBackHd.runWith(this.type);
+            this.hitCallBackHd.runWith(this.moleType);
             Laya.timer.once(500, this, this.reset);
             this.showScore();
         }
